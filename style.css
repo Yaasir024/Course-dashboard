@@ -7,7 +7,9 @@
 :root {
     --grey-dark: #C7CADD;
     --grey-light: #BFC9ED;
+    --grey-lighter: #E5E5E5;
     --blue-light: #5E81F4;
+
 }
 
 *,
@@ -22,6 +24,10 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: var(--grey-dark);
+}
+
 .container {
     margin-top: 3rem;
     display: grid;
@@ -29,7 +35,14 @@ html {
 }
 
 .main {
-    background-color: var(--grey-dark);
+    background-color: var(--grey-lighter);
+}
+.sidebar-left {
+    background-color: #fff;
+}
+
+.sidebar-right {
+    background-color: #fff;
 }
 
 
@@ -44,12 +57,18 @@ html {
     margin: 4.8rem 0;
 }
 
+
+/* Button */
 .btn {
     color: var(--grey-dark);
     background-color: var(--blue-light);
     padding: 1rem 3.97rem;
     border-radius: 1rem;
     border: 1px solid var(--blue-light);
+
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--grey-dark);
 }
 
 .nav-bar {
@@ -73,4 +92,7 @@ html {
 
 .nav-links a span {
     margin-left: 2.18rem;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--grey-dark);
 }
