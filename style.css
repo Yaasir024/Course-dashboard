@@ -33,3 +33,26 @@ html {
 }
 
 
+/* Left sidebar */
+.sidebar-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin: 4.8rem 0;
+}
+
+.btn {
+    color: var(--grey-dark);
+    background-color: var(--blue-light);
+    padding: 1rem 3.97rem;
+    border-radius: 1rem;
+    border: 1px solid var(--blue-light);
+}
+
+.nav {
+    margin-top: 4.8rem;
+}
+
