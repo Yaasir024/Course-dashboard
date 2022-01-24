@@ -4,7 +4,11 @@
     padding: 0;
 }
 
-
+:root {
+    --grey-dark: #C7CADD;
+    --grey-light: #BFC9ED;
+    --blue-light: #5E81F4;
+}
 
 *,
 *::after,
@@ -17,4 +21,15 @@ html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
 }
+
+.container {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 27.2rem 1fr 38.4rem;
+}
+
+.main {
+    background-color: var(--grey-dark);
+}
+
 
