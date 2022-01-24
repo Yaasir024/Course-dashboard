@@ -96,3 +96,7 @@ body {
     font-size: 16px;
     color: var(--grey-dark);
 }
+
+.upgrade {
+    margin-top: 11.1rem;
+}
