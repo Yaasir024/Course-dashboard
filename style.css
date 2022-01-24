@@ -52,7 +52,25 @@ html {
     border: 1px solid var(--blue-light);
 }
 
-.nav {
+.nav-bar {
     margin-top: 4.8rem;
 }
 
+.nav-bar ul {
+    list-style: none;
+}
+
+.nav-links {
+    margin-bottom: 4.9rem;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a span {
+    margin-left: 2.18rem;
+}
